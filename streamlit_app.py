@@ -66,9 +66,9 @@ st.write("""
 **Institución:** Tec de Monterrey, San Luis Potosí  
 **Fechas:** 2017-2020  
 
-**Título:** Representativo Voleibol 
-**Institución:** Tec de Monterrey, San Luis Potosí 
-**Fechas:** 2017-2019 
+**Título:** Representativo Voleibol  
+**Institución:** Tec de Monterrey, San Luis Potosí  
+**Fechas:** 2017-2019  
 """)
 
 # Sección de Habilidades
