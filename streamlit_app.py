@@ -107,6 +107,7 @@ st.write("""
 st.write("---")
 st.write("Esta aplicación fue creada con Streamlit.")
 
+import requests
 import streamlit as st
 
 # iamge ID
@@ -115,7 +116,8 @@ file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
 # URL
 url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
-# show image
-st.image(url)
+response = requests.get(url)
+st.image(response.content)
+
 
 
