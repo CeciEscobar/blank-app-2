@@ -17,7 +17,7 @@ file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
 url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
 response = requests.get(url)
-st.image(response.content)
+st.image(response.content, width=100)
 
 ### SECCION INFORMACIÓN
 
