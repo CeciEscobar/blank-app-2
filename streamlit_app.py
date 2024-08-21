@@ -5,6 +5,12 @@ st.title("Cecilia Escobar Briones")
 
 st.header("Estudiante Administración y Finanzas")
 
+
+# Crear dos columnas
+col1, col2 = st.columns(2)
+# Columna Derecha
+with col2:
+    
 ### FOTO PERFIL
 
 import requests
@@ -19,6 +25,8 @@ url = f"https://drive.google.com/uc?export=view&id={file_id}"
 response = requests.get(url)
 st.image(response.content, width=220)
 
+# Columna Derecha
+with col1:
 ### SECCION INFORMACIÓN
 
 # Sección de Información Personal
