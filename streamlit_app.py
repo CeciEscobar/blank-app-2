@@ -7,17 +7,19 @@ st.header("Estudiante Administración y Finanzas")
 
 ### FOTO PERFIL
 
-import streamlit as st 
+import requests
+import streamlit as st
 
-# Enlace compartido de Google Drive
-drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=sharing'
+# iamge ID
+file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
 
-# Convertir el enlace compartido a un enlace directo
-file_id = '1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV'
-direct_link = f'https://drive.google.com/uc?id={file_id}'
+# URL
+url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
-# Mostrar la imagen en la app de Streamlit
-st.image(direct_link, caption='Imagen desde Google Drive', use_column_width=True)
+response = requests.get(url)
+st.image(response.content)
+
+### SECCION INFORMACIÓN
 
 # Sección de Información Personal
 st.header("Información Personal")
@@ -107,17 +109,7 @@ st.write("""
 st.write("---")
 st.write("Esta aplicación fue creada con Streamlit.")
 
-import requests
-import streamlit as st
 
-# iamge ID
-file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
-
-# URL
-url = f"https://drive.google.com/uc?export=view&id={file_id}"
-
-response = requests.get(url)
-st.image(response.content)
 
 
 
