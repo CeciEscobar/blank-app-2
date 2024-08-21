@@ -19,7 +19,7 @@ st.image(direct_link, caption='Imagen desde Google Drive', use_column_width=True
 
 # Sección de Información Personal
 st.header("Información Personal")
-st.write("""
+st.markdown("""
 **Nombre:** Cecilia Escobar  
 **Correo Electrónico:** cecilia.escobarb01@gmail.com  
 **Teléfono:** 4442361322
