@@ -17,7 +17,7 @@ file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
 url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
 response = requests.get(url)
-st.image(response.content, width=150)
+st.image(response.content, width=220)
 
 ### SECCION INFORMACIÓN
 
@@ -104,6 +104,77 @@ st.write("""
 - SAP
 """)
 
+
+# Pie de página
+st.write("---")
+st.write("Esta aplicación fue creada con Streamlit.")
+
+
+
+# Crear dos columnas
+col1, col2 = st.columns(2)
+
+# Columna Izquierda
+with col1:
+    st.header("Experiencia Laboral")
+    st.subheader("Becaria Área de Credencialización")
+    st.write("""
+    **Empresa:** Universidad Panamericana  
+    **Ubicación:** Guadalajara, Jalisco  
+    **Fechas:** Dic/2022 - Presente    
+    **Descripción:**  
+    - Atención al cliente 
+    - Gestión de datos 
+    - Administración de inventario 
+    - Creación y distribución de credenciales 
+    """)
+    
+    st.header("Experiencia Académica")
+    st.write("""
+    **Título:** Licenciatura en Administración y Finanzas  
+    **Institución:** Universidad Panamericana  
+    **Fechas:** Ago/2021 - Actualidad    
+
+    **Título:** Mejores promedios  
+    **Institución:** Universidad Panamericana  
+    **Fechas:** Ago/2021 - Actualidad   
+
+    **Título:** Preparatoria Tec de Monterrey  
+    **Institución:** Tec de Monterrey, San Luis Potosí  
+    **Fechas:** 2017-2020  
+
+    **Título:** Representativo Voleibol  
+    **Institución:** Tec de Monterrey, San Luis Potosí  
+    **Fechas:** 2017-2019  
+    """)
+
+# Columna Derecha
+with col2:
+    st.header("Habilidades")
+    st.write("""
+    - Comunicación efectiva
+    - Trabajo en equipo
+    - Gestión de tiempo
+    - Pensamiento critico
+    - Creatividad
+    - Disiplina
+    """)
+    
+    st.header("Idiomas")
+    st.write("""
+    - Español (Nativo)
+    - Ingles (Avanzado, C1)
+    """)
+
+    st.header("Programas que domino")
+    st.write("""
+    - Word
+    - Power Point
+    - Excel
+    - Canva
+    - Google Drive (Docs, Sheets, Calendar, etc)
+    - SAP
+    """)
 
 # Pie de página
 st.write("---")
