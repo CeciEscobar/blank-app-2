@@ -130,7 +130,7 @@ url = f"https://drive.google.com/uc?export=view&id={file_id}"
 response = requests.get(url)
 st.image(response.content, width=220)
 
-With col1:
+with col1:
 # Sección de Información Personal
 st.header("Información Personal")
 st.write("""
