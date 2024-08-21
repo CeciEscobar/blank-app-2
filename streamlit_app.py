@@ -5,6 +5,17 @@ st.title("Cecilia Escobar Briones")
 
 st.header("Estudiante Administración y Finanzas")
 
+### FOTO PERFIL
+# Enlace compartido de Google Drive
+drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=drive_link'
+
+# Convertir el enlace compartido a un enlace directo
+file_id = '1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV'
+direct_link = f'https://drive.google.com/uc?id={file_id}'
+
+# Mostrar la imagen en la app de Streamlit
+st.image(direct_link, caption='Imagen desde Google Drive', use_column_width=True)
+
 # Sección de Información Personal
 st.header("Información Personal")
 st.write("""
@@ -83,13 +94,4 @@ st.write("Disponibles a solicitud.")
 st.write("---")
 st.write("Esta aplicación fue creada con Streamlit.")
 
-# Enlace compartido de Google Drive
-drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=drive_link'
-
-# Convertir el enlace compartido a un enlace directo
-file_id = '1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV'
-direct_link = f'https://drive.google.com/uc?id={file_id}'
-
-# Mostrar la imagen en la app de Streamlit
-st.image(direct_link, caption='Imagen desde Google Drive', use_column_width=True)
 
