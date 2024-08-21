@@ -19,9 +19,6 @@ url = f"https://drive.google.com/uc?export=view&id={file_id}"
 response = requests.get(url)
 st.image(response.content)
 
-# Mostrar la imagen con un ancho específico
-st.image(url, caption='Imagen pequeña', width=150) 
-
 ### SECCION INFORMACIÓN
 
 # Sección de Información Personal
