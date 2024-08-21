@@ -113,6 +113,34 @@ st.write("---")
 st.write("Esta aplicación fue creada con Streamlit.")
 
 
+# Crear dos columnas
+col1, col2 = st.columns(2)
+
+# Columna Derecha
+with col2:
+    import requests
+import streamlit as st
+
+# iamge ID
+file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
+
+# URL
+url = f"https://drive.google.com/uc?export=view&id={file_id}"
+
+response = requests.get(url)
+st.image(response.content, width=220)
+
+With col1:
+# Sección de Información Personal
+st.header("Información Personal")
+st.write("""
+**Nombre:** Cecilia Escobar  
+**Correo Electrónico:** cecilia.escobarb01@gmail.com  
+**Teléfono:** 4442361322   
+**Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan  
+**Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318 
+""")
+
 
 
 
