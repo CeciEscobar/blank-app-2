@@ -101,6 +101,9 @@ st.write("""
 - SAP
 """)
 
+# Información adiiconañ
+st.heather("Información Adicional")
+st.write("Disfruto hacer ejericio, conocer gente nuevam leer, tejer, cocinar, caminar en el campo, viajar")
 
 # Pie de página
 st.write("---")
