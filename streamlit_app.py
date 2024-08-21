@@ -19,11 +19,11 @@ st.image(direct_link, caption='Imagen desde Google Drive', use_column_width=True
 
 # Sección de Información Personal
 st.header("Información Personal")
-st.markdown("""
+st.write("""
 **Nombre:** Cecilia Escobar  
 **Correo Electrónico:** cecilia.escobarb01@gmail.com  
 **Teléfono:** 4442361322
-**Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan
+**Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan  
 **Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318
 """)
 
@@ -42,8 +42,8 @@ st.header("Experiencia Laboral")
 st.subheader("Becaria Área de Credencialización")
 st.write("""
 **Empresa:** Universidad Panamericana  
-**Ubicación:** Guadalajara, Jalisco
-**Fechas:** Dic/2022 - Presente  
+**Ubicación:** Guadalajara, Jalisco  
+**Fechas:** Dic/2022 - Presente    
 **Descripción:**  
 - Atención al cliente
 - Gestión de datos
