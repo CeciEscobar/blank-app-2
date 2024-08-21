@@ -19,13 +19,8 @@ url = f"https://drive.google.com/uc?export=view&id={file_id}"
 response = requests.get(url)
 st.image(response.content)
 
-# Crear la imagen redonda y alineada
-st.markdown(f"""
-    <div style="display: inline-block; vertical-align: middle;">
-        <img src="data:image/jpeg;base64,{st.base64.b64encode(img_data).decode()}" 
-             style="border-radius: 20%; width: 80px; height: 80px;">
-    </div>
-""", unsafe_allow_html=True)
+# Mostrar la imagen con un ancho específico
+st.image(url, caption='Imagen pequeña', width=150) 
 
 ### SECCION INFORMACIÓN
 
