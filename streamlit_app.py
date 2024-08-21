@@ -22,9 +22,9 @@ st.header("Información Personal")
 st.write("""
 **Nombre:** Cecilia Escobar  
 **Correo Electrónico:** cecilia.escobarb01@gmail.com  
-**Teléfono:** 4442361322
+**Teléfono:** 4442361322 
 **Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan  
-**Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318
+**Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318 
 """)
 
 
@@ -45,30 +45,30 @@ st.write("""
 **Ubicación:** Guadalajara, Jalisco  
 **Fechas:** Dic/2022 - Presente    
 **Descripción:**  
-- Atención al cliente
-- Gestión de datos
-- Administración de inventario
-- Creación y distribución de credenciales
+- Atención al cliente 
+- Gestión de datos 
+- Administración de inventario 
+- Creación y distribución de credenciales 
 """)
 
 # Sección de Educación
 st.header("Experiencia Académica")
 st.write("""
-**Título:** Licenciatura en Administración y Finanzas
-**Institución:** Universidad Panamericana
-**Fechas:** Ago/2021 - Actualidad  
+**Título:** Licenciatura en Administración y Finanzas  
+**Institución:** Universidad Panamericana  
+**Fechas:** Ago/2021 - Actualidad    
 
-**Título:** Mejores promedios
-**Institución:** Universidad Panamericana
-**Fechas:** Ago/2021 - Actualidad  
+**Título:** Mejores promedios  
+**Institución:** Universidad Panamericana  
+**Fechas:** Ago/2021 - Actualidad   
 
-**Título:** Preparatoria Tec de Monterrey
-**Institución:** Tec de Monterrey, San Luis Potosí
-**Fechas:** 2017-2020
+**Título:** Preparatoria Tec de Monterrey  
+**Institución:** Tec de Monterrey, San Luis Potosí  
+**Fechas:** 2017-2020  
 
-**Título:** Representativo Voleibol
-**Institución:** Tec de Monterrey, San Luis Potosí
-**Fechas:** 2017-2019
+**Título:** Representativo Voleibol 
+**Institución:** Tec de Monterrey, San Luis Potosí 
+**Fechas:** 2017-2019 
 """)
 
 # Sección de Habilidades
