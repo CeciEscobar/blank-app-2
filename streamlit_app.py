@@ -1,8 +1,9 @@
 import streamlit as st
 
 #Titulo
-st.title("Curriculum personal | Cecilia Escobar")
+st.title("Curriculum personal | Cecilia Escobar Briones")
 
+st.header("Estudiante Administración y Finanzas")
 
 # Sección de Información Personal
 st.header("Información Personal")
