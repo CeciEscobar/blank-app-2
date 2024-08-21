@@ -7,6 +7,8 @@ st.header("Estudiante Administración y Finanzas")
 
 ### FOTO PERFIL
 
+import streamlit as st 
+
 # Enlace compartido de Google Drive
 drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=drive_link'
 
