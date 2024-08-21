@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Titulo
-st.title("Curriculum personal | Cecilia Escobar Briones")
+st.title("Cecilia Escobar Briones")
 
 st.header("Estudiante Administración y Finanzas")
 
@@ -44,9 +44,10 @@ st.write("""
 st.header("Experiencia Académica")
 st.write("""
 **Título:** Licenciatura en Administración y Finanzas
+
 **Institución:** Universidad Panamericana
+
 **Fechas:** Ago/2021 - Actualidad  
-**Descripción:** Breve descripción de tus estudios, si es relevante.
 """)
 
 # Sección de Habilidades
