@@ -13,7 +13,7 @@ st.write("""
 **Teléfono:** 4442361322
 **Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan
 """)
-**Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318
+**Linkedin:** Cecilia Ecobar Briones
 
 # Sección de Perfil Profesional
 st.header("Perfil Profesional")
@@ -26,14 +26,16 @@ entorno profesional y dinámico donde pueda contribuir al exito de su empresa.
 
 # Sección de Experiencia Laboral
 st.header("Experiencia Laboral")
-st.subheader("Puesto Actual o Más Reciente")
+st.subheader("Becaria Área de Credencialización")
 st.write("""
-**Empresa:** Nombre de la Empresa  
-**Ubicación:** Ciudad, País  
-**Fechas:** Mes/Año - Presente  
+**Empresa:** Universidad Panamericana  
+**Ubicación:** Guadalajara, Jalisco
+**Fechas:** Dic/2022 - Presente  
 **Descripción:**  
-- Describa sus responsabilidades y logros aquí.
-- Añadir puntos adicionales según sea necesario.
+-Atención al cliente
+-Gestión de datos
+-Administración de inventario
+-Creación y distribución de credenciales
 """)
 
 # Añadir más experiencias laborales si es necesario
