@@ -1,25 +1,25 @@
 import streamlit as st
 
+#Titulo
 st.title("Curriculum personal | Cecilia Escobar")
 
- #Título
-st.title("Cecilia Escobar Briones")
 
 # Sección de Información Personal
 st.header("Información Personal")
 st.write("""
-**Nombre:** Tu Nombre Aquí  
-**Correo Electrónico:** tu.email@ejemplo.com  
-**Teléfono:** +123456789  
-**Dirección:** Dirección completa
+**Nombre:** Cecilia Escobar  
+**Correo Electrónico:** cecilia.escobarb01@gmail.com  
+**Teléfono:** 4442361322
+**Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan
 """)
 
 # Sección de Perfil Profesional
 st.header("Perfil Profesional")
 st.write("""
-Soy un [insertar tu profesión aquí], con [insertar años de experiencia] años de experiencia en [industria/sector]. 
-Experto en [habilidades clave], con un fuerte enfoque en [intereses profesionales específicos]. 
-Me apasiona [mencionar algún interés profesional] y siempre estoy buscando nuevas oportunidades para [logro o habilidad].
+Estudiante universitaria de Administración y Finanzas en séptimo semestre con
+experiencia en el área de administración y servicio al cliente. Estoy comprometida con
+mi crecimiento personal y busco poder aplicar lo aprendido en la universidad en un
+entorno profesional y dinámico donde pueda contribuir al exito de su empresa.
 """)
 
 # Sección de Experiencia Laboral
