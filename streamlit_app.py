@@ -101,10 +101,6 @@ st.write("""
 - SAP
 """)
 
-# Sección de Información Adicional
-st.header("Información Adicional")
-st.write(" Disfruto hacer ejercicio, conocer gente nueva, leer, tejer, cocinar,
-caminar en campo y viajar")
 
 # Pie de página
 st.write("---")
