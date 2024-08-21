@@ -38,17 +38,6 @@ st.write("""
 -Creación y distribución de credenciales
 """)
 
-# Añadir más experiencias laborales si es necesario
-st.subheader("Puesto Anterior")
-st.write("""
-**Empresa:** Nombre de la Empresa  
-**Ubicación:** Ciudad, País  
-**Fechas:** Mes/Año - Mes/Año  
-**Descripción:**  
-- Describa sus responsabilidades y logros aquí.
-- Añadir puntos adicionales según sea necesario.
-""")
-
 # Sección de Educación
 st.header("Educación")
 st.write("""
