@@ -10,7 +10,7 @@ st.header("Estudiante Administración y Finanzas")
 import streamlit as st 
 
 # Enlace compartido de Google Drive
-drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=drive_link'
+drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=sharing'
 
 # Convertir el enlace compartido a un enlace directo
 file_id = '1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV'
