@@ -45,8 +45,8 @@ entorno profesional y dinámico donde pueda contribuir al exito de su empresa.
 # Crear dos columnas
 col1, col2 = st.columns(2)
 
-# Columna Izquierda
-with col1:
+# Columna Derecha
+with col2:
     st.header("Experiencia Laboral")
     st.subheader("Becaria Área de Credencialización")
     st.write("""
@@ -79,8 +79,8 @@ with col1:
     **Fechas:** 2017-2019  
     """)
 
-# Columna Derecha
-with col2:
+# Columna Izquierda
+with col1:
     st.header("Habilidades")
     st.write("""
     - Comunicación efectiva
