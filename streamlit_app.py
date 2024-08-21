@@ -9,7 +9,7 @@ st.header("Estudiante Administración y Finanzas")
 # Crear dos columnas
 col1, col2 = st.columns(2)
 # Columna Derecha
-with col2:
+with col2: 
     
 ### FOTO PERFIL
 
