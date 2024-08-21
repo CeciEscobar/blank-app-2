@@ -19,6 +19,14 @@ url = f"https://drive.google.com/uc?export=view&id={file_id}"
 response = requests.get(url)
 st.image(response.content)
 
+# Crear la imagen redonda y alineada
+st.markdown(f"""
+    <div style="display: inline-block; vertical-align: middle;">
+        <img src="data:image/jpeg;base64,{st.base64.b64encode(img_data).decode()}" 
+             style="border-radius: 20%; width: 80px; height: 80px;">
+    </div>
+""", unsafe_allow_html=True)
+
 ### SECCION INFORMACIÓN
 
 # Sección de Información Personal
@@ -109,29 +117,7 @@ st.write("""
 st.write("---")
 st.write("Esta aplicación fue creada con Streamlit.")
 
-import requests
-import streamlit as st
 
-# Título de la sección
-st.markdown("<h1 style='display: inline-block; vertical-align: middle;'>Título</h1>", unsafe_allow_html=True)
-
-# ID de la imagen en Google Drive
-file_id = "1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV"
-
-# URL directa de la imagen
-url = f"https://drive.google.com/uc?export=view&id={file_id}"
-
-# Obtener la imagen
-response = requests.get(url)
-img_data = response.content
-
-# Crear la imagen redonda y alineada
-st.markdown(f"""
-    <div style="display: inline-block; vertical-align: middle;">
-        <img src="data:image/jpeg;base64,{st.base64.b64encode(img_data).decode()}" 
-             style="border-radius: 50%; width: 100px; height: 100px;">
-    </div>
-""", unsafe_allow_html=True)
 
 
 
