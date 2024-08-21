@@ -7,7 +7,6 @@ st.header("Estudiante Administración y Finanzas")
 
 ### FOTO PERFIL
 
-import streamlit as st
 # Enlace compartido de Google Drive
 drive_link = 'https://drive.google.com/file/d/1dSRPt8BOQXvwE0jpULs0jyRKCewf24sV/view?usp=drive_link'
 
@@ -60,37 +59,51 @@ st.write("""
 **Institución:** Universidad Panamericana
 **Fechas:** Ago/2021 - Actualidad  
 
-**Título:** Licenciatura en Administración y Finanzas
+**Título:** Mejores promedios
 **Institución:** Universidad Panamericana
 **Fechas:** Ago/2021 - Actualidad  
+
+**Título:** Preparatoria Tec de Monterrey
+**Institución:** Tec de Monterrey, San Luis Potosí
+**Fechas:** 2017-2020
+
+**Título:** Representativo Voleibol
+**Institución:** Tec de Monterrey, San Luis Potosí
+**Fechas:** 2017-2019
 """)
 
 # Sección de Habilidades
 st.header("Habilidades")
 st.write("""
-- Habilidad 1
-- Habilidad 2
-- Habilidad 3
-- Habilidad 4
+- Comunicación efectiva
+- Trabajo en equipo
+- Gestión de tiempo
+- Pensamiento critico
+- Creatividad
+- Disiplina
 """)
 
 # Sección de Idiomas
 st.header("Idiomas")
 st.write("""
-- Idioma 1 (Nivel)
-- Idioma 2 (Nivel)
+- Español (Nativo)
+- Ingles (Avanzado, C1)
 """)
 
-# Sección de Proyectos o Publicaciones (Opcional)
-st.header("Proyectos o Publicaciones")
-st.write("""
-**Título del Proyecto o Publicación**  
-Breve descripción del proyecto o publicación. Incluir enlace si es relevante.
+# Sección de Programas que domino)
+st.header("Programas que domino")
+- Word
+- Power Point
+- Excel
+- Canva
+- Google Drive (Docs, Sheets, Calendar, etc)
+- SAP
 """)
 
-# Sección de Referencias (Opcional)
-st.header("Referencias")
-st.write("Disponibles a solicitud.")
+# Sección de Información Adicional
+st.header("Información Adicional")
+st.write("Disfruto hacer ejercicio, conocer gente nueva, leer, tejer, cocinar,
+caminar en campo y viajar")
 
 # Pie de página
 st.write("---")
