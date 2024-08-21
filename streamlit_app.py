@@ -14,7 +14,6 @@ st.write("""
 **Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan
 """)
 **Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318
-""")
 
 # Sección de Perfil Profesional
 st.header("Perfil Profesional")
