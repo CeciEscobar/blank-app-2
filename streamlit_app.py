@@ -92,6 +92,7 @@ st.write("""
 
 # Sección de Programas que domino)
 st.header("Programas que domino")
+st.write("""
 - Word
 - Power Point
 - Excel
