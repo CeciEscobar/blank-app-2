@@ -12,7 +12,6 @@ st.write("""
 **Correo Electrónico:** cecilia.escobarb01@gmail.com  
 **Teléfono:** 4442361322
 **Dirección:** Av. de la estrella 677, 45019. Solares, Zapopan
-
 **Linkedin:** www.linkedin.com/in/cecilia-escobar-briones-074a00318
 """)
 
